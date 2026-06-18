@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pritam Kumar | Graphic Design Portfolio</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; line-height: 1.6; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
+        header { background: #333; color: #fff; padding: 2rem; text-align: center; }
+        .container { width: 80%; margin: auto; overflow: hidden; padding: 20px; }
+        .portfolio-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 20px; }
+        .project-card { background: #fff; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center; }
+        footer { text-align: center; padding: 20px; background: #333; color: #fff; margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Pritam Kumar</h1>
+        <p>Graphic Designer | AI Content Writer | Web Developer</p>
+    </header>
+
+    <div class="container">
+        <h2>My Projects</h2>
+        <div class="portfolio-grid">
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>Description of your graphic design work.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>Description of your design or AI content work.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 3</h3>
+                <p>Description of your web development work.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Contact: pritam.kumar@example.com</p>
+        <p>&copy; 2026 Pritam Kumar</p>
+    </footer>
+
+</body>
+</html>
